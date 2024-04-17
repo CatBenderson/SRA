@@ -1,0 +1,232 @@
+{
+    "id": "1",
+    "nombre": "Pensamiento computacional",
+    "contenido": "En nuestro día a día nos vemos en la necesidad de resolver problemas y tomar decisiones. Muchas de estas tienen que ver con la tecnología, la cual se presenta de las maneras más inesperadas. Es seguro que alguna vez has visto a alguien idear la ruta ideal para evitar el tráfico, planear sus gastos o simplemente pensar en una manera de hacer más sencilla una tarea repetitiva. Si es así, ya has visto qué es el pensamiento computacional y a continuación lo detallaremos de mejor manera.\nDesde su concepción, el concepto ha cambiado muchas veces, en algunos casos se ha tratado como una herramienta mental, en otras como un proceso de pensamiento o incluso como una estrategia. A continuación se presenta la primera definición formal así como una de las más aceptadas en la actualidad.\n'El pensamiento computacional implica resolver los problemas, diseñar sistemas y entender el comportamiento humano, aprovechando los conceptos fundamentales para las ciencias informáticas. El pensamiento computacional incluye una gama de herramientas mentales que reflejan la amplitud del campo de la informática.'(Wing,2006)\n'El pensamiento computacional es el proceso de reconocimiento de aspectos de la informática en el mundo que nos rodea, y aplicar herramientas y técnicas de la informática para comprender y razonar sobre los sistemas y procesos tanto naturales como artificiales.' (The Royal Society,2012)\nAnte esto debemos hacer una aclaración: el pensamiento computacional y programar no son lo mismo. Aquí estamos hablando de la capacidad de utilizar el pensamiento abstracto para simplificar los elementos de un problema, obteniendo así elementos de importancia y un modelo que nos permita generar como solución una secuencia de procesos ejecutables en un sistema informático.\nAhora que sabemos de lo que estamos hablando, es importante darnos cuenta de los principios o pilares que lo conforman.'\n1.- Descomposición de un problema: No es necesario idear una solución para el problema complejo en su totalidad, lo ideal es dividirlo en partes más pequeñas y manejables, permitiendo un análisis y respuesta individuales.\n2.- Reconocer patrones: A continuación busca las similitudes o características comunes que se comparten entre problemas. De esta manera puedes reutilizar soluciones que han probado ser eficientes\n3.-Abstraer lo relevante: Debes concentrarte en la información que es de relevancia para tu problema, eliminar cualquier característica innecesaria. Generalmente, esto significa encontrar las características generales que tienen en común los elementos. Al tener una abstracción adecuada podemos generar un modelo que guiará nuestra idea de solución.\n4.- Escritura de algoritmos: Finalmente, se debe generar las instrucciones paso a paso para resolver el problema, teniendo en cuenta todo lo que hemos observado con anterioridad. Estos algoritmos pueden ser diagramas o pseudocódigo, pero siempre se busca idear los más eficientes.",
+    "imagenes": {
+        "1": {
+            "url": "https://img.freepik.com/fotos-premium/codigo-programacion-pantalla_339569-1124.jpg",
+            "alt": ""
+        },
+        "2": {
+            "url": "https://img.freepik.com/fotos-premium/codigo-programacion-pantalla_339569-1125.jpg",
+            "alt": ""
+        },
+        "3": {
+            "url": "https://img.freepik.com/fotos-premium/codigo-programacion-pantalla_339569-1126.jpg",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id":"1-1-E",
+            "imagen": "https://img.freepik.com/fotos-premium/codigo-programacion-pantalla_339569-1127.jpg",
+            "pregunta": "Un camión tiene que hacer una entrega en una casa ¿Qué pasos debe seguir para llegar si tiene las siguientes restricciones?\n1.- Avanza hacia adelante hasta que ya no puede seguir\n2.- Puede girar 90° a la izquierda\n3.- Puede girar 90° a la derecha",
+            "respuestas": {
+                "1": {
+                    "contenido": "1, 2, 1, 2, 1, 2, 1, 3, 1, 3, 1, 2, 1",
+                    "retroalimentacion": "Hola",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "1, 2, 1, 2, 1, 1",
+                    "retroalimentacion": "Yo",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "1, 3, 1, 2, 1, 2, 3, 1",
+                    "retroalimentacion": "Soy",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "1, 3, 3, 2, 1, 2, 3, 1",
+                    "retroalimentacion": "Feliz",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id":"1-1-P",
+            "pregunta": "¿Qué es el pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Resolver problemas matemáticos.",
+                    "retroalimentacion": "1",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Un proceso de pensamiento relacionado con la tecnología.",
+                    "retroalimentacion": "tu",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Programar sistemas informáticos.",
+                    "retroalimentacion": "q",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Diseñar herramientas de software.",
+                    "retroalimentacion": "gg",
+                    "estado": "false"
+                }
+            }
+        },
+        "2": {
+            "id":"1-2-P",
+            "pregunta": "¿Cuál es una de las definiciones más aceptadas del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "El proceso de programar algoritmos en computadoras.",
+                    "retroalimentacion": "u8",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "El reconocimiento de aspectos de la informática en el mundo que nos rodea.",
+                    "retroalimentacion": "jk,",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "La resolución de problemas en el ámbito de la biología.",
+                    "retroalimentacion": "87",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "La capacidad de diseñar sistemas de inteligencia artificial.",
+                    "retroalimentacion": "44",
+                    "estado": "false"
+                }
+            }
+        },
+        "3": {
+            "id":"1-3-P",
+            "pregunta": "¿Cuál de las siguientes no es una característica del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Descomposición de un problema.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Reconocimiento de patrones.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Creación de soluciones abstractas.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Optimización de recursos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "4": {
+            "id":"1-4-P",
+            "pregunta": "¿Qué implica 'abstraer lo relevante' en el contexto del pensamiento computacional?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Concentrarse en detalles irrelevantes.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "2": {
+                    "contenido": "Encontrar características generales comunes en los elementos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Ignorar por completo la información del problema.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Diseñar algoritmos complicados.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        },
+        "5": {
+            "id":"1-5-P", 
+            "pregunta": "¿Cuál es uno de los pilares del pensamiento computacional mencionados en el texto?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Descomposición de un problema.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Reconocimiento de patrones solo en la naturaleza.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "3": {
+                    "contenido": "Ignorar cualquier información irrelevante.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                },
+                "4": {
+                    "contenido": "Saltar directamente a la escritura de algoritmos.",
+                    "retroalimentacion": "",
+                    "estado": "false"
+                }
+            }
+        }
+    }
+}

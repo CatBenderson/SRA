@@ -1,0 +1,56 @@
+.titulo-unidad {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.contenedor-contenido-unidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 5px;
+}
+
+.contenido-unidad{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.contenido-unidad-ejercicio{
+    font-size: 16px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-top: 5px;
+    line-height: 1;
+}
+
+.imagen-unidad {
+    width: 250px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+
+
+.boton-unidad{
+    max-width: 40%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #28AD56;
+    border: #38C769 ;
+    border-radius: 5px;
+    width: 40%;
+    margin-inline: 10px;
+    height: 30px;
+}
+
+.contenedor-cambio-unidad{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    color: black;
+}
