@@ -1,5 +1,5 @@
 .contenedor-sidebar {
-    background-color: #28AD56;
+    background-color: #18529D;
     max-width: 19vw;
     min-width: 190px;
     min-height: 100vh;
@@ -34,5 +34,5 @@
 }
 
 .opciones:hover {
-    background-color: #38C769;
+    background-color: #2262B4;
 }

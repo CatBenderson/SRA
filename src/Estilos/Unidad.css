@@ -38,12 +38,16 @@
     color: #FFFFFF;
     font-weight: bold;
     font-size: 16px;
-    background-color: #28AD56;
-    border: #38C769 ;
+    background-color: #18529D;
+    border: #18529D ;
     border-radius: 5px;
     width: 40%;
     margin-inline: 10px;
     height: 30px;
+}
+
+.boton-unidad:hover{
+    background-color: #2262B4;
 }
 
 .contenedor-cambio-unidad{

@@ -1,13 +1,19 @@
-import { archivosPorUnidad } from "../Utils/Archivos.js";
+import { archivosPorUnidad, codigoPorUnidad } from "../Utils/Archivos.js";
 import { leerArchivoJSON, renderizarContenido, ubicarUnidad } from '../Utils/Utils';
 import { useState, useEffect } from 'react';
 import '../Estilos/Unidad.css';
 import { useNavigate } from "react-router-dom";
 import Ejercicio from './Ejercicio';
 import Missing from "./Missing.js";
+import CodigoSeleccion from "./CodigoSeleccion.js";
+import Modal from "./Modal.js";
 
 export default function Unidad() {
     const [unidad, setUnidad] = useState({});
+    const [codigo, setCodigo] = useState({});
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [modalVisible, setModalVisible] = useState(false);
+
 
 
     const history = useNavigate();
@@ -17,9 +23,16 @@ export default function Unidad() {
         window.location.reload()
     };
 
+    const handleImageClick = (url, alt) => {
+        setSelectedImage({ url, alt });
+        setModalVisible(true);
+    };
+
+
     function siguienteUnidad() {
         const nuevaUnidad = parseInt(ubicarUnidad()) + 1;
         handleRedirect("/programacion/" + nuevaUnidad);
+        window.scrollTo(0, 0);
     }
 
     function previaUnidad() {
@@ -28,6 +41,7 @@ export default function Unidad() {
             nuevaUnidad = 1
         }
         handleRedirect("/programacion/" + nuevaUnidad);
+        window.scrollTo(0, 0);
     }
 
 
@@ -36,6 +50,14 @@ export default function Unidad() {
             .then(contenido => {
                 setUnidad(contenido);
 
+            })
+            .catch(error => {
+                console.error('Error al cargar la información de la experiencia:', error);
+            });
+
+        leerArchivoJSON(codigoPorUnidad[ubicarUnidad()])
+            .then(contenido => {
+                setCodigo(contenido);
             })
             .catch(error => {
                 console.error('Error al cargar la información de la experiencia:', error);
@@ -64,11 +86,29 @@ export default function Unidad() {
                                         className="imagen-unidad"
                                         alt={`Imagen ${num}`}
                                         loading="lazy"
+                                        onClick={() => handleImageClick(imagenes[num].url, imagenes[num]?.alt)}
                                     />
                                 )
                             ))}
                         </div>
                     </div>
+
+                    {selectedImage && modalVisible && (
+                        <Modal imagen={selectedImage} closeModal={() => setModalVisible(false)} >
+
+                        </Modal>
+                    )}
+
+
+                    {codigo.clases &&
+                        [1, 2, 3, 4, 5].map(num => (
+                            codigo?.clases[num] && (
+                                <CodigoSeleccion archivo={codigo.clases[num]} />
+
+                            )
+
+                        ))
+                    }
 
                     {ejercicios[1]?.pregunta && (
                         <>

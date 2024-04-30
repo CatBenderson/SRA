@@ -11,6 +11,9 @@ import InfoExperiencia from './Componentes/InfoExperiencia';
 import CardUnidad from './Componentes/CardUnidad';
 import Unidad from './Componentes/Unidad';
 import Ejercicio from './Componentes/Ejercicio';
+import Snipet from './Componentes/Snipet';
+import CodigoSeleccion from './Componentes/CodigoSeleccion';
+import { codigoPorUnidad } from './Utils/Archivos';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,7 +27,7 @@ root.render(
           <Route exact path='/programacion/1' element={<Unidad />} />
           <Route exact path='/programacion/:id' element={<Unidad />} />
           <Route exact path='/missing' element={<Missing />} />
-          <Route exact path='/prueba' element={<Unidad/>} />
+          <Route exact path='/prueba' element={<CodigoSeleccion archivo={codigoPorUnidad[1]} />}/>
         </Routes>
       </div>
     </div>

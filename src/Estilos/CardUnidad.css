@@ -3,7 +3,7 @@
     width: 90%;
     min-width: 280px;
     min-height: 70px;
-    border: #38C769 solid thin;
+    border: #2262B4 solid thin;
     border-radius: 5px;
     box-shadow: 0.2em 0.2em .7em rgba(0, 0, 0, 0.3);
     display: inline-block;
@@ -16,7 +16,7 @@
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 5px;
-    background-color: #38C769;
+    background-color: #2262B4;
     width: 40px;
     height: 40px;
     color: #FFFFFF;
@@ -39,5 +39,5 @@
 }
 
 .contenedor-card-unidad:hover{
-    background-color: #E8FFF0;
+    background-color: #CFE4FF;
 }

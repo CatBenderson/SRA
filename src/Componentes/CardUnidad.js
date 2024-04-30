@@ -11,6 +11,7 @@ export default function CardUnidad({id, unidad}) {
 
     function comprobarUnidad(id) {
         handleRedirect("/programacion/" + id)
+        window.scrollTo(0, 0);
     }
 
     return (

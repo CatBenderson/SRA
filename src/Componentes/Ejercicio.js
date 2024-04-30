@@ -1,28 +1,36 @@
 import { renderizarContenido } from '../Utils/Utils';
 import '../Estilos/Ejercicios.css';
 import React, { useState } from 'react';
+import Modal from './Modal';
 
 export default function Ejercicio({ ejercicio }) {
     const [respuestaSeleccionada, setRespuestaSeleccionada] = useState('');
-    const [retroalimentacion, setRetroalimentacion] = useState('')
+    const [retroalimentacion, setRetroalimentacion] = useState('');
+    const [modalVisible, setModalVisible] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [retroalimentacionTrue, setRetroalimentacionTrue] = useState(false);
 
     const manejarSeleccion = e => {
         setRespuestaSeleccionada(e.target.value);
     };
 
+    const handleImageClick = (url, alt) => {
+        setSelectedImage({ url, alt });
+        setModalVisible(true);
+    };
+
     const manejarSubmit = e => {
         e.preventDefault();
 
-        if (respuestaSeleccionada != "") {
-            if (ejercicio.respuestas[respuestaSeleccionada].estado == "true") {
-                setRetroalimentacion(ejercicio.respuestas[respuestaSeleccionada].retroalimentacion)
+        if (respuestaSeleccionada !== "") {
+            if (ejercicio.respuestas[respuestaSeleccionada].estado === "true") {
+                setRetroalimentacion(ejercicio.respuestas[respuestaSeleccionada].retroalimentacion);
+                setRetroalimentacionTrue(true);
             } else {
-                setRetroalimentacion(ejercicio.respuestas[respuestaSeleccionada].retroalimentacion)
+                setRetroalimentacion(ejercicio.respuestas[respuestaSeleccionada].retroalimentacion);
+                setRetroalimentacionTrue(false);
             }
         }
-
-
-
     };
 
     return (
@@ -33,6 +41,7 @@ export default function Ejercicio({ ejercicio }) {
                         src={ejercicio.imagen}
                         className="imagen-card-ejercicio"
                         alt="Imagen del ejercicio"
+                        onClick={() => handleImageClick(ejercicio.imagen, "")}
                     />
                 )}
                 <div className="pregunta-card-ejercicio">
@@ -55,10 +64,14 @@ export default function Ejercicio({ ejercicio }) {
                 ))}
                 <button type='submit' className='boton-ejercicio'>Seleccionar</button>
                 {retroalimentacion && (
-                    <div className="retroalimentacion-card-ejercicio">
+                    <div className={`retroalimentacion-card-ejercicio ${retroalimentacionTrue ? '' : 'retroalimentacion-error'}`}>
                         <p className='titulo-retroalimentacion'><strong>Retroalimentación</strong></p>
                         {retroalimentacion}
                     </div>
+                )}
+
+                {selectedImage && modalVisible && (
+                    <Modal imagen={selectedImage} closeModal={() => setModalVisible(false)} />
                 )}
             </form>
         </div>
