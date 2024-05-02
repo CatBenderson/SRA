@@ -28,6 +28,8 @@
     min-width: 250px;
     min-height: 180px;
     border-radius: 5px;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
 
 

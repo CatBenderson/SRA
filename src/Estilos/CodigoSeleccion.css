@@ -7,7 +7,7 @@
 .boton, .botonSelect {
     margin: 1px;
     border-radius: 3px;
-    border-color: #419419;
+    border-color: #18529D;
     border-style: solid;
     border-width: thin;
     font-weight: bold;
@@ -22,6 +22,6 @@
 }
 
 .botonSelect {
-    background-color: #419419;
+    background-color: #18529D;
     color: #F5F5F5;
 }

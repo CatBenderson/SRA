@@ -4,10 +4,7 @@ import '../Estilos/CodigoSeleccion.css';
 
 export default function CodigoSeleccion({ archivo }) {
     const [lenguaje, setLenguaje] = useState("java");
-
-    useEffect(() => {
-        console.log(archivo.java);
-    }, []);
+    
 
     return (
         <div className="contenedor-codigo-seleccion">

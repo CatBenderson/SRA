@@ -5,12 +5,10 @@ import { renderizarContenido, leerArchivo } from '../Utils/Utils';
 import '../Estilos/Snipet.css'; 
 
 export default function Snipet({ archivo, lenguaje }) {
-    const [codigo, setCodigo] = useState("");
     const [copy, setCopy] = useState(false);
 
     useEffect(() => {
         leerArchivo();
-        console.log(archivo);
     }, [archivo]);
 
     return (
@@ -21,7 +19,7 @@ export default function Snipet({ archivo, lenguaje }) {
                     <div className="barra-copiar">✔ Copiado</div>
                 ) : (
                     <div className="barra-copiar" onClick={() => {
-                        navigator.clipboard.writeText(codigo);
+                        navigator.clipboard.writeText(archivo.codigo);
                         setCopy(true);
                         setTimeout(() => {
                             setCopy(false);

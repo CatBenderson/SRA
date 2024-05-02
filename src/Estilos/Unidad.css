@@ -12,7 +12,7 @@
 }
 
 .contenido-unidad{
-    font-size: 18px;
+    font-size: 16px;
     margin-right: 20px;
     margin-top: 5px;
 }
@@ -29,6 +29,8 @@
     width: 250px;
     height: 180px;
     border-radius: 5px;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
 
 

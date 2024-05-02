@@ -102,13 +102,12 @@ export default function Unidad() {
 
                     {codigo.clases &&
                         [1, 2, 3, 4, 5].map(num => (
-                            codigo?.clases[num] && (
+                            codigo?.clases[num]?.java?.codigo && ( 
                                 <CodigoSeleccion archivo={codigo.clases[num]} />
-
                             )
-
                         ))
                     }
+
 
                     {ejercicios[1]?.pregunta && (
                         <>
