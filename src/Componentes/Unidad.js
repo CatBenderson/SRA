@@ -37,7 +37,7 @@ export default function Unidad() {
 
     function previaUnidad() {
         var nuevaUnidad = parseInt(ubicarUnidad()) - 1;
-        if (nuevaUnidad == 0) {
+        if (nuevaUnidad === 0) {
             nuevaUnidad = 1
         }
         handleRedirect("/programacion/" + nuevaUnidad);
