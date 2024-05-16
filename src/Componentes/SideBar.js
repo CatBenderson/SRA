@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faGraduationCap, faHouse, faBook } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import '../Estilos/SideBar.css'; 
 
@@ -21,8 +21,12 @@ export default function SideBar() {
             </div>
             <hr />
             <div className="opciones" onClick={() => handleRedirect('/')}>
-                <FontAwesomeIcon className="iconoOpcion" icon={faHouse} />
+                <FontAwesomeIcon className="iconoGeneral" icon={faHouse} />
                 <label> Vista general</label>
+            </div>
+            <div className="opciones" onClick={() => handleRedirect('/recursos')}>
+                <FontAwesomeIcon className="iconoRecursos" icon={faBook} />
+                <label> Recursos de apoyo</label>
             </div>
         </div>
     );

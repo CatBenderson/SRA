@@ -8,12 +8,10 @@ import SideBar from './Componentes/SideBar';
 import Principal from './Componentes/Principal';
 import Missing from './Componentes/Missing';
 import InfoExperiencia from './Componentes/InfoExperiencia';
-import CardUnidad from './Componentes/CardUnidad';
 import Unidad from './Componentes/Unidad';
-import Ejercicio from './Componentes/Ejercicio';
-import Snipet from './Componentes/Snipet';
 import CodigoSeleccion from './Componentes/CodigoSeleccion';
 import { codigoPorUnidad } from './Utils/Archivos';
+import Recursos from './Componentes/InfoRecursos';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +21,7 @@ root.render(
       <div style={{ flex: 1, marginLeft: '1vw' }}>
         <Routes>
           <Route exact path='/' element={<Principal />} />
+          <Route exact path='/recursos' element={<Recursos />} />
           <Route exact path='/programacion' element={<InfoExperiencia />} />
           <Route exact path='/programacion/1' element={<Unidad />} />
           <Route exact path='/programacion/:id' element={<Unidad />} />

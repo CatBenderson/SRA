@@ -1,7 +1,7 @@
 {
-    "id": "",
-    "nombre": "",
-    "contenido": "",
+    "id": "14",
+    "nombre": "Estructuras de datos",
+    "contenido": "Las estructuras de datos nacen de la necesidad de mecanismos para manipular y almacenar información para resolver problemas.  Estas son formas particulares de ordenar y organizar datos en una computadora para que puedan ser usados de manera eficiencia.  En resumen, una estructura de datos es un formato especializado para organizar y ordenar datos.  Las estructuras más conocidas son los arreglos, archivos, listas, pilas, colas, árboles y  grafos pero hay muchas otras más.\n\nAl hablar de estructuras de datos no podemos olvidarnos de los algoritmos pues son estos quienes se encargan de manipular (encontrar datos específicos u ordenar de cierta manera) los datos alojados en estas estructuras. \n",
     "imagenes": {
         "1": {
             "url": "",
@@ -101,7 +101,7 @@
     },
     "preguntas": {
         "1": {
-            "id": "-1-P",
+            "id": "",
             "pregunta": "",
             "respuestas": {
                 "1": {
@@ -127,7 +127,7 @@
             }
         },
         "2": {
-            "id": "-2-P",
+            "id": "",
             "pregunta": "",
             "respuestas": {
                 "1": {
@@ -153,7 +153,7 @@
             }
         },
         "3": {
-            "id": "-3-P",
+            "id": "",
             "pregunta": "",
             "respuestas": {
                 "1": {
@@ -179,7 +179,7 @@
             }
         },
         "4": {
-            "id": "-4-P",
+            "id": "",
             "pregunta": "",
             "respuestas": {
                 "1": {
@@ -205,7 +205,7 @@
             }
         },
         "5": {
-            "id": "-5-P",
+            "id": "",
             "pregunta": "",
             "respuestas": {
                 "1": {

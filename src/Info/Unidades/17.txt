@@ -1,7 +1,7 @@
 {
-    "id": "",
-    "nombre": "",
-    "contenido": "",
+    "id": "17",
+    "nombre": "Árboles:  Árboles binarios de búsqueda",
+    "contenido": "Los árboles binarios de búsqueda son un tipo de árbol que a pesar de seguir todas las reglas anteriormente vistas tiene algunas características particulares. \n\nUn árbol binario de búsqueda es un árbol binario etiquetado pudiendo ser un el árbol vacío aunque principalmente ocurre que su raíz es mayor que todos los elementos de su subárbol izquierdo (si tiene) y menor que todos los\nelementos de su subárbol derecho (si tiene). Además, sus subárboles izquierdo y derecho son también árboles de búsqueda. Es debido a estas características que pueden encontrarse valores en los nodos que lo conforman mediante criterios de búsqueda binarias, similares a los utilizados en los arreglos.",
     "imagenes": {
         "1": {
             "url": "",
