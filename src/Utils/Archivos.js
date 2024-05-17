@@ -13,9 +13,11 @@ import xii from '../Info/Unidades/12.txt';
 import xiii from '../Info/Unidades/13.txt';
 import xiv from '../Info/Unidades/14.txt';
 import xv from '../Info/Unidades/15.txt';
+import xvi from '../Info/Unidades/16.txt';
 import xvii from '../Info/Unidades/17.txt';
-import diecinueve from '../Info/Unidades/19.txt';
-import diecinueveC from '../Info/Unidades/Codigos/19.txt';
+import xviii from '../Info/Unidades/18.txt';
+import xix from '../Info/Unidades/19.txt';
+import xixC from '../Info/Unidades/Codigos/19.txt';
 
 export const archivosPorUnidad = {
     1: i,
@@ -33,11 +35,13 @@ export const archivosPorUnidad = {
     13: xiii,
     14: xiv,
     15: xv,
+    16: xvi,
     17: xvii,
-    19: diecinueve
+    18: xviii,
+    19: xix
 };
 
 export const codigoPorUnidad = {
-    19: diecinueveC
+    19: xixC
 };
  
