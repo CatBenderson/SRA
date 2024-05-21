@@ -54,12 +54,12 @@ export default function Ejercicio({ ejercicio }) {
                         <input
                             type='radio'
                             name='respuesta'
-                            id={ejercicio.id}
+                            id={ejercicio.id + key}
                             value={key}
                             onChange={manejarSeleccion}
                             checked={respuestaSeleccionada === key}
                         />
-                        <label htmlFor={ejercicio.id}> <strong> {`${key}) `} </strong> {`${ejercicio.respuestas[key].contenido}`}</label>
+                        <label htmlFor={ejercicio.id + key}> <strong> {`${key}) `} </strong> {`${ejercicio.respuestas[key].contenido}`}</label>
                     </div>
                 ))}
                 <button type='submit' className='boton-ejercicio'>Seleccionar</button>
