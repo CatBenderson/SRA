@@ -1,11 +1,11 @@
 {
-    "id": "",
-    "nombre": "",
-    "contenido": "",
+    "id": "31",
+    "nombre": "Funciones de dispersión",
+    "contenido": "Las funciones o tablas de dispersión son estructuras de datos similares a los diccionarios anteriormente vistos. Funcionan por medio de una pareja de llave valor, en este caso la llave es un número entero positivo perteneciente a un rango de valores, relativamente pequeño. \n\nHablando más a detalle sobre su funcionamiento, una función de dispersión convierte el dato otorgado, en un valor entero en el rango de definición del arreglo o vector que va a almacenar los elementos, de tal forma que sea adecuado para indexar el arreglo. De esta manera se logra utilizar la llave de un registro para determinar su dirección ahorrando el mayor espacio posible.\n\n*Determinísticas: Para una entrada dada, una función de dispersión siempre producirá el mismo valor hash.\n*Uniformidad: Idealmente, una buena función de dispersión distribuye las claves de entrada de manera uniforme en el espacio de salida, minimizando la probabilidad de colisiones (dos claves distintas que producen el mismo valor hash).\n*Eficiencia: Deben ser rápidas de calcular para garantizar un rendimiento óptimo en las operaciones de inserción, búsqueda y eliminación en una tabla de dispersión.\n*Mínimas *colisiones: Aunque es imposible evitar por completo las colisiones, una función de dispersión debe minimizar la probabilidad de que ocurran, especialmente en casos donde las claves no son distribuidas uniformemente.\n",
     "imagenes": {
         "1": {
-            "url": "",
-            "alt": ""
+            "url": "https://i.imgur.com/vUKfhIL.png",
+            "alt": "Estructura de una función de dispersión"
         },
         "2": {
             "url": "",
@@ -18,56 +18,56 @@
     },
     "ejercicios": {
         "1": {
-            "id": "",
+            "id": "31-1-E",
             "imagen": "",
-            "pregunta": "",
+            "pregunta": "Teniendo los valores \n- Sauce\n- Pino\n- Olivo\n- Encino\n- Fresno\n ¿En qué posición del arreglo queda el elemento Encino?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Posición 1",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Posición 2",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Posición 3",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Posición 4",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 }
             }
         },
         "2": {
             "id": "",
             "imagen": "",
-            "pregunta": "",
+            "pregunta": "Teniendo los valores \n- Sauce\n- Pino\n- Olivo\n- Encino\n- Fresno\n ¿Fresno comparte índice con otro elemento?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "No",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "No se puede saber",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Si, comparte el índice 1",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Si, comparte el índice 4",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -101,132 +101,132 @@
     },
     "preguntas": {
         "1": {
-            "id": "-1-P",
-            "pregunta": "",
+            "id": "31-1-P",
+            "pregunta": "¿Qué característica define a una función de dispersión o tabla de dispersión?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Almacena solo valores numéricos.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Utiliza pares de llave-valor.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Almacena solo valores enteros.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Utiliza solo valores de cadena de texto.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
         "2": {
-            "id": "-2-P",
-            "pregunta": "",
+            "id": "31-2-P",
+            "pregunta": "¿Cómo funciona una función de dispersión para determinar la dirección de almacenamiento de un elemento?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Utiliza la suma de los caracteres de la llave.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Convierte la llave en un valor entero dentro del rango del arreglo.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Multiplica la llave por un valor fijo.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Ordena alfabéticamente las llaves.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
         "3": {
-            "id": "-3-P",
-            "pregunta": "",
+            "id": "31-3-P",
+            "pregunta": "¿Qué significa que una función de dispersión sea determinística?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Que produce el mismo valor hash para cada entrada dada.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Que produce un valor hash diferente cada vez que se llama.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Que solo funciona con valores enteros.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Que puede producir colisiones en todas las entradas.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
         "4": {
-            "id": "-4-P",
-            "pregunta": "",
+            "id": "31-4-P",
+            "pregunta": "¿Cuál es uno de los objetivos principales de una buena función de dispersión?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Generar valores hash aleatorios.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Maximizar la probabilidad de colisiones.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": " Distribuir las claves de entrada uniformemente en el espacio de salida.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": " Minimizar la eficiencia en operaciones de inserción y eliminación.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
         "5": {
-            "id": "-5-P",
-            "pregunta": "",
+            "id": "31-5-P",
+            "pregunta": "¿Por qué es importante minimizar las colisiones en una función de dispersión?",
             "respuestas": {
                 "1": {
-                    "contenido": "",
+                    "contenido": "Porque aumentan la velocidad de las operaciones de búsqueda.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
-                    "contenido": "",
+                    "contenido": "Porque reducen el espacio de almacenamiento necesario.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
-                    "contenido": "",
+                    "contenido": "Porque aumentan la probabilidad de pérdida de datos.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
-                    "contenido": "",
+                    "contenido": "Porque garantizan la uniformidad en la distribución de las claves.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "true"
                 }
             }
         }

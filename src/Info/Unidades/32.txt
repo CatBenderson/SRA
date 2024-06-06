@@ -1,0 +1,234 @@
+{
+    "id": "32",
+    "nombre": "Búsqueda en anchura",
+    "contenido": "La búsqueda en anchura se trata de uno de los algoritmo de búsqueda más sencillos para recorrer grafos. Se basa en la idea de realizar un recorrido por niveles.  Este algoritmo se describe de la siguiente manera: \n\nDado un grafo G y un vértice inicial s, una búsqueda en anchura procede explorando las aristas en el grafo para encontrar todos los vértices en G para los cuales hay una ruta a partir de s. Lo notable de una búsqueda en anchura es que encuentra todos los vértices que estén a una distancia k de s antes de encontrar cualesquiera vértices que estén una distancia k+1.\n\nDe la misma manera a la hora de implementar este algoritmo, es común implementar el uso de una cola. En esta cola, se almacenarán momentáneamente los vértices que estén a una distancia k, tras haber visitado y procesado dichos vértices, se agregan a la cola los que están a una distancia k+1.\n\nEste algoritmo, al expandir los nodos de manera uniforme garantiza encontrar la mejor solución de un problema de costro uniforme antes que otros. Sin embargo en grafos muy extensos, su alto orden de complejidad computacional puede consumir demasiada memoria al tener que guardar la red completa que se explora. \n",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "32-1-E",
+            "imagen": "",
+            "pregunta": "Con base en los siguientes datos de estudiantes y su número de lista\n- Omar, 16\n- Luis, 18\n- Jorge, 14\n- Jose, 13\n- Gabriel, 12\n- Alvaro, 10\n- Daniel, 17\n  ¿Cuál es el orden que sigue el algoritmo antes de encontrar el asociado a Gabriel?",
+            "respuestas": {
+                "1": {
+                    "contenido": "10, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "18, 17, 16, 14, 13, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "16, 14, 18, 13, 17, 12",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "16, 14, 13, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "32-1-P",
+            "pregunta": "¿Cuál es la idea principal detrás del algoritmo de búsqueda en anchura (BFS)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Recorrer el grafo de manera aleatoria.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Recorrer el grafo comenzando desde el vértice con mayor grado.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Realizar un recorrido por niveles.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Buscar solo en grafos completos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "2": {
+            "id": "32-2-P",
+            "pregunta": "¿Qué estructura de datos es comúnmente utilizada para implementar el algoritmo de búsqueda en anchura?",
+            "respuestas": {
+                "1": {
+                    "contenido": " Pila.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Cola",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "3": {
+                    "contenido": "Lista enlazada",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Árbol binario",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "32-3-P",
+            "pregunta": "¿Qué garantiza la búsqueda en anchura al expandir los nodos de manera uniforme?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Encontrar la solución más costosa primero.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Encontrar todos los vértices sin importar la distancia.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Encontrar la mejor solución de un problema de costo uniforme antes que otros.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Encontrar la solución más rápida sin importar la memoria.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "4": {
+            "id": "32-4-P",
+            "pregunta": "¿Cuál es una desventaja importante del algoritmo de búsqueda en anchura en grafos muy extensos?",
+            "respuestas": {
+                "1": {
+                    "contenido": "No puede encontrar todos los vértices.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "No puede encontrar la mejor solución.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Puede consumir demasiada memoria.",
+                    "retroalimentacion": "true",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": " Solo funciona con grafos dirigidos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "5": {
+            "id": "32-5-P",
+            "pregunta": "¿Cómo procesa este algoritmo los vértices en un grafo G a partir de un vértice inicial s?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Encuentra todos los vértices a una distancia k de s antes que los de distancia k+1.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Encuentra vértices a una distancia k+1 antes que a una distancia k.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Encuentra todos los vértices de manera aleatoria.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Encuentra vértices a una distancia k-1 después de los de distancia k",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    }
+}

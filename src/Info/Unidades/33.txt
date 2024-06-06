@@ -1,0 +1,234 @@
+{
+    "id": "33",
+    "nombre": "Búsqueda en profundidad",
+    "contenido": "Al igual que el algoritmo visto en la unidad anterior, la búsqueda en profundidad se trata de un algoritmo de búsqueda de grafos. Tiene como objetivo buscar lo más profundamente posible, conectando los nodos del grafo y creando las ramas necesarias. Esto lo hace al expandir primero uno de sus nodos hasta su nivel más profundo y sólo cuando llega a un nodo sin hijos, regresa a niveles menos profundos que tengan alternativas no exploradas.\n\nEl orden en que se eligen las ramas en un recorrido DFS está determinado por el tipo de recorrido de procesamiento de árbol que se haya elegido, estos pueden ser:\n*Pre-orden: Se procesa primero la raíz, luego la rama izquierda y luego las ramas siguientes hasta llegar a la que se encuentra más a la derecha.\n*Post-orden: Se procesa el árbol desde las ramas izquierdas hasta la que se encuentra más a la derecha. Finalmente se procesa el nodo raíz\n*Simétrico *o *in-orden: Se procesa la rama de la izquierda, luego el nodo raíz y luego la rama derecha.\n\nDe la misma manera, a la hora de llevar a cabo la implementación, lo más habitual es hacer uso de la recursión en lugar de seguir usando las colas que la búsqueda en anchura plantea. Otra comparación con la búsqueda en anchura es que suele ser más rápido pues es muy probable encontrar una solución después de explorar una parte del árbol. Por otro lado, debido a su naturaleza de ir al punto más profundo, no es completo ni óptimo por lo que debe evitarse en árboles de búsqueda de profundidad muy grande o infinita.",
+    "imagenes": {
+        "1": {
+            "url": "",
+            "alt": ""
+        },
+        "2": {
+            "url": "",
+            "alt": ""
+        },
+        "3": {
+            "url": "",
+            "alt": ""
+        }
+    },
+    "ejercicios": {
+        "1": {
+            "id": "33-1-E",
+            "imagen": "",
+            "pregunta": "Con base en los siguientes datos de estudiantes y su número de lista\n- Omar, 16\n- Luis, 18\n- Jorge, 14\n- Jose, 13\n- Gabriel, 12\n- Alvaro, 10\n- Daniel, 17\n  ¿Cuál es el orden que sigue el algoritmo antes de encontrar el asociado a Gabriel?",
+            "respuestas": {
+                "1": {
+                    "contenido": "10, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "18, 17, 16, 14, 13, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "16, 14, 18, 13, 17, 12",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "16, 14, 13, 12",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "",
+            "imagen": "",
+            "pregunta": "",
+            "respuestas": {
+                "1": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    },
+    "preguntas": {
+        "1": {
+            "id": "33-1-P",
+            "pregunta": "¿Qué tipo de algoritmo es la búsqueda en profundidad (DFS)?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Algoritmo de búsqueda de amplitud.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Algoritmo de búsqueda de grafos.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Algoritmo de búsqueda heurística.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Algoritmo de búsqueda de grafos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                }
+            }
+        },
+        "2": {
+            "id": "33-2-P",
+            "pregunta": "¿Cuál es el objetivo principal de la búsqueda en profundidad?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Explorar todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Encontrar la solución óptima de manera rápida.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Buscar lo más profundamente posible en el grafo.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Minimizar el tiempo de ejecución del algoritmo.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "3": {
+            "id": "33-3-P",
+            "pregunta": "¿En qué orden se procesan los nodos en el recorrido de pre-orden en DFS?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Raíz, rama derecha, rama izquierda.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Rama izquierda, raíz, rama derecha.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Raíz, rama izquierda, rama derecha.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Rama derecha, rama izquierda, raíz.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "4": {
+            "id": "33-4-P",
+            "pregunta": "¿Cuál es una ventaja de la búsqueda en profundidad sobre la búsqueda en amplitud?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Es más rápido en la mayoría de los casos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "2": {
+                    "contenido": "Garantiza encontrar la solución óptima.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Explora todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "4": {
+                    "contenido": "Tiende a consumir menos memoria.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        },
+        "5": {
+            "id": "33-5-P",
+            "pregunta": "¿Por qué la búsqueda en profundidad no es completa ni óptima?",
+            "respuestas": {
+                "1": {
+                    "contenido": "Porque siempre encuentra la solución más óptima.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "2": {
+                    "contenido": "Porque explora todas las ramas del árbol simultáneamente.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                },
+                "3": {
+                    "contenido": "Porque puede quedar atrapada en ciclos infinitos.",
+                    "retroalimentacion": "",
+                    "estado": "true"
+                },
+                "4": {
+                    "contenido": "Porque solo procesa nodos en pre-orden.",
+                    "retroalimentacion": "",
+                    "estado": ""
+                }
+            }
+        }
+    }
+}
