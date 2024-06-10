@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mal manejo de parámetros",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay manipulación de parámetros adicionales en el método main, por lo que no hay errores en el manejo de parámetros.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Indicar qué es lo que hace la función",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay problemas en indicar lo que hace la función porque es fácilmente comprensible.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No establecer estándares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "De la manera en la que se muestra, el código sigue convenciones comunes y es fácil de entender",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Uso de nombres vagos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El nombre \"Cliente\" para la clase y \"n\" para el nombre del cliente son bastante vagos y podrían ser más descriptivos.",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Mal manejo de parámetros",
-                    "retroalimentacion": "",
+                    "retroalimentacion": " La función mostrarMapa espera que los parámetros latitud y longitud sean cadenas que representen números decimales, sin embargo, no se realiza ningún tipo de validación para asegurar que estos valores sean números válidos antes de intentar convertirlos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Uso de nombres vagos",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Los nombres latitud y longitud son bastante descriptivos y reflejan claramente su propósito.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "No indicar qué es lo que hace la función",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "No hay problema en no indicar explícitamente qué hace la función ya que su nombre y su implementación son lo suficientemente descriptivos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "No establecer estándares",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el caso de esta código no hay un problema significativo en no establecer estándares.",
                     "estado": "false"
                 }
             }
