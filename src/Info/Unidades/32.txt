@@ -24,23 +24,23 @@
             "respuestas": {
                 "1": {
                     "contenido": "10, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia solo numera de manera ascendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "18, 17, 16, 14, 13, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia solo numera de manera descendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "16, 14, 18, 13, 17, 12",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue BFS para llegar al 12.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "16, 14, 13, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue DFS para llegar al 12.",
+                    "estado": "false"
                 }
             }
         },
@@ -52,22 +52,22 @@
                 "1": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -79,22 +79,22 @@
                 "1": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         }
@@ -107,12 +107,12 @@
                 "1": {
                     "contenido": "Recorrer el grafo de manera aleatoria.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Recorrer el grafo comenzando desde el vértice con mayor grado.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Realizar un recorrido por niveles.",
@@ -122,7 +122,7 @@
                 "4": {
                     "contenido": "Buscar solo en grafos completos.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -133,7 +133,7 @@
                 "1": {
                     "contenido": " Pila.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Cola",
@@ -143,12 +143,12 @@
                 "3": {
                     "contenido": "Lista enlazada",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Árbol binario",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -159,12 +159,12 @@
                 "1": {
                     "contenido": "Encontrar la solución más costosa primero.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Encontrar todos los vértices sin importar la distancia.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Encontrar la mejor solución de un problema de costo uniforme antes que otros.",
@@ -174,7 +174,7 @@
                 "4": {
                     "contenido": "Encontrar la solución más rápida sin importar la memoria.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -185,22 +185,22 @@
                 "1": {
                     "contenido": "No puede encontrar todos los vértices.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "No puede encontrar la mejor solución.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Puede consumir demasiada memoria.",
                     "retroalimentacion": "true",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": " Solo funciona con grafos dirigidos.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -216,17 +216,17 @@
                 "2": {
                     "contenido": "Encuentra vértices a una distancia k+1 antes que a una distancia k.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Encuentra todos los vértices de manera aleatoria.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Encuentra vértices a una distancia k-1 después de los de distancia k",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         }

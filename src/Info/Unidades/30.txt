@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "000FFF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor no se relaciona con alguna llave registrada en el diccionario.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "0000FF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor no se relaciona con alguna llave registrada en el diccionario.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "FFFFFF",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor está relacionado con la llave \"Blanco\".",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "0000ff",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este valor se relaciona con la llave \"azul\".",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "[rojo, verde, blanco, azul, morado]",
-                    "retroalimentacion": "",
-                    "estado": "false"
+                    "retroalimentacion": "Este conjunto es el conjunto de las llaves en el diccionario.",
+                    "estado": "true"
                 },
                 "2": {
                     "contenido": "[FF0000, 008f39, FFFFFF, 0000ff, 572364]",
-                    "retroalimentacion": "",
-                    "estado": "true"
+                    "retroalimentacion": "Este conjunto es el conjunto de los valores en el diccionario.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "[rojo, FF0000]",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este conjunto solo muestra un par llave-valor que se encuentra contenida en el diccionario.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "5",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta información no se encuentra contenida en el diccionario.",
                     "estado": "false"
                 }
             }

@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Posición 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En esta posición se ubican Olivo y Fresno, pero no Encino.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Posición 2",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta posición se encuentra vacía.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Posición 3",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta posición se encuentra vacía.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Posición 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En esta posición se encuentra almacenado el valor Encino",
                     "estado": "true"
                 }
             }
@@ -51,22 +51,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "No",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Fresco si comparte índice con otro elemento.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "No se puede saber",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Si es posible saber al imprimir la tabla Hash.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Si, comparte el índice 1",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Fresno se encuentra en el índice 1 junto a Olivo.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Si, comparte el índice 4",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Fresno no se ubica en el índice 4",
                     "estado": "false"
                 }
             }

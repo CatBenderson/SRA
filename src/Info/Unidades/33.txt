@@ -24,22 +24,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "10, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia solo numera de manera ascendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "18, 17, 16, 14, 13, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia solo numera de manera descendente los elementos existentes hasta llegar al 12.",
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "16, 14, 18, 13, 17, 12",
-                    "retroalimentacion": "",
-                    "estado": ""
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue BFS para llegar al 12.",
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "16, 14, 13, 12",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Esta secuencia indica el proceso que sigue DFS para llegar al 12.",
                     "estado": "true"
                 }
             }
@@ -52,22 +52,22 @@
                 "1": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -79,22 +79,22 @@
                 "1": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         }
@@ -107,17 +107,17 @@
                 "1": {
                     "contenido": "Algoritmo de búsqueda de amplitud.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Algoritmo de búsqueda de grafos.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Algoritmo de búsqueda heurística.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Algoritmo de búsqueda de grafos.",
@@ -133,12 +133,12 @@
                 "1": {
                     "contenido": "Explorar todas las ramas del árbol simultáneamente.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Encontrar la solución óptima de manera rápida.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Buscar lo más profundamente posible en el grafo.",
@@ -148,7 +148,7 @@
                 "4": {
                     "contenido": "Minimizar el tiempo de ejecución del algoritmo.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -159,12 +159,12 @@
                 "1": {
                     "contenido": "Raíz, rama derecha, rama izquierda.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Rama izquierda, raíz, rama derecha.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Raíz, rama izquierda, rama derecha.",
@@ -174,7 +174,7 @@
                 "4": {
                     "contenido": "Rama derecha, rama izquierda, raíz.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -190,17 +190,17 @@
                 "2": {
                     "contenido": "Garantiza encontrar la solución óptima.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Explora todas las ramas del árbol simultáneamente.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "4": {
                     "contenido": "Tiende a consumir menos memoria.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         },
@@ -211,12 +211,12 @@
                 "1": {
                     "contenido": "Porque siempre encuentra la solución más óptima.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque explora todas las ramas del árbol simultáneamente.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque puede quedar atrapada en ciclos infinitos.",
@@ -226,7 +226,7 @@
                 "4": {
                     "contenido": "Porque solo procesa nodos en pre-orden.",
                     "retroalimentacion": "",
-                    "estado": ""
+                    "estado": "false"
                 }
             }
         }
