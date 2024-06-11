@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Almacena solo valores numéricos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión puede manejar cualquier tipo de datos como valores, no solo valores numéricos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Utiliza pares de llave-valor.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión o tabla de dispersión (hash table) almacena datos en pares de llave-valor, permitiendo un acceso eficiente a los valores a través de sus llaves.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Almacena solo valores enteros.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión puede manejar cualquier tipo de datos, no solo valores enteros.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Utiliza solo valores de cadena de texto.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las funciones de dispersión pueden manejar cualquier tipo de datos, no solo valores de cadena de texto.",
                     "estado": "false"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Utiliza la suma de los caracteres de la llave.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Algunas funciones de dispersión pueden usar la suma de los caracteres como parte de su algoritmo, pero esto no es un enfoque común ya que no distribuye uniformemente las llaves.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Convierte la llave en un valor entero dentro del rango del arreglo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión convierte la llave en un valor entero que se utiliza como índice en el arreglo subyacente, asegurando que el índice esté dentro del rango del arreglo.",
                     "estado": "true"
                 },
                 "3": {
                     "contenido": "Multiplica la llave por un valor fijo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Multiplicar la llave por un valor fijo no es una técnica efectiva para una función de dispersión, ya que no garantiza una buena distribución de los valores hash.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Ordena alfabéticamente las llaves.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Ordenar alfabéticamente las llaves no es relevante para una función de dispersión, ya que esta debe asignar un índice específico a cada llave de manera eficiente.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Que produce el mismo valor hash para cada entrada dada.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión determinística siempre produce el mismo valor hash para una misma entrada, lo que garantiza consistencia en el acceso y almacenamiento de datos.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Que produce un valor hash diferente cada vez que se llama.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión determinística debe producir el mismo valor hash para la misma entrada cada vez que se llama, no un valor diferente.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Que solo funciona con valores enteros.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión puede trabajar con cualquier tipo de datos, no solo valores enteros.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Que puede producir colisiones en todas las entradas.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una función de dispersión determinística puede tener colisiones, pero su propósito es minimizar estas colisiones, no garantizarlas.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Generar valores hash aleatorios.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una buena función de dispersión no genera valores aleatorios, sino que distribuye las llaves de entrada uniformemente en el espacio de salida.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Maximizar la probabilidad de colisiones.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Una buena función de dispersión busca minimizar las colisiones, no maximizarlas, para asegurar una distribución uniforme de las llaves.",
                     "estado": "false"
                 },
                 "3": {
-                    "contenido": " Distribuir las claves de entrada uniformemente en el espacio de salida.",
-                    "retroalimentacion": "",
+                    "contenido": "Distribuir las claves de entrada uniformemente en el espacio de salida.",
+                    "retroalimentacion": "Uno de los objetivos principales de una buena función de dispersión es distribuir las llaves de entrada uniformemente en el espacio de salida para minimizar las colisiones y optimizar el rendimiento.",
                     "estado": "true"
                 },
                 "4": {
-                    "contenido": " Minimizar la eficiencia en operaciones de inserción y eliminación.",
-                    "retroalimentacion": "",
+                    "contenido": "Minimizar la eficiencia en operaciones de inserción y eliminación.",
+                    "retroalimentacion": "Una buena función de dispersión debe maximizar la eficiencia en las operaciones de inserción y eliminación, no minimizarlas.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque aumentan la velocidad de las operaciones de búsqueda.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Minimizar las colisiones no necesariamente aumenta la velocidad de las operaciones de búsqueda, pero asegura que las operaciones de búsqueda, inserción y eliminación sean más eficientes.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque reducen el espacio de almacenamiento necesario.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Minimizar las colisiones no reduce el espacio de almacenamiento necesario; más bien, mejora la eficiencia del almacenamiento y el rendimiento.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque aumentan la probabilidad de pérdida de datos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Las colisiones no aumentan la probabilidad de pérdida de datos, pero pueden reducir la eficiencia de acceso a los datos.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Porque garantizan la uniformidad en la distribución de las claves.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Minimizar las colisiones garantiza la uniformidad en la distribución de las claves, lo que mejora la eficiencia y el rendimiento del sistema de dispersión.",
                     "estado": "true"
                 }
             }

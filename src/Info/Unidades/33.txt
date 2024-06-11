@@ -106,22 +106,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Algoritmo de búsqueda de amplitud.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La búsqueda en amplitud (BFS) es diferente de la búsqueda en profundidad (DFS). BFS explora los niveles del grafo uno a uno, mientras que DFS explora tan profundamente como sea posible en una rama antes de retroceder.",
                     "estado": "false"
                 },
                 "2": {
-                    "contenido": "Algoritmo de búsqueda de grafos.",
-                    "retroalimentacion": "",
+                    "contenido": "Algoritmo de búsqueda de árboles binarios.",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) es un algoritmo de búsqueda que se aplica a otras estructuras además de árboles binarios.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Algoritmo de búsqueda heurística.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Un algoritmo de búsqueda heurística utiliza información adicional para dirigir la búsqueda, mientras que DFS no usa heurísticas, sino que sigue una ruta hasta el final antes de retroceder.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Algoritmo de búsqueda de grafos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) es un algoritmo de búsqueda de grafos que explora profundamente cada rama antes de retroceder.",
                     "estado": "true"
                 }
             }
@@ -132,22 +132,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Explorar todas las ramas del árbol simultáneamente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. En lugar de eso, sigue un camino tanto como sea posible antes de retroceder y explorar otras ramas.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Encontrar la solución óptima de manera rápida.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no garantiza encontrar la solución óptima y puede no ser rápido en todos los casos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Buscar lo más profundamente posible en el grafo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El objetivo principal de la búsqueda en profundidad (DFS) es explorar tan profundamente como sea posible en una rama del grafo antes de retroceder y explorar otras ramas.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Minimizar el tiempo de ejecución del algoritmo.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no está diseñado específicamente para minimizar el tiempo de ejecución del algoritmo.",
                     "estado": "false"
                 }
             }
@@ -158,22 +158,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Raíz, rama derecha, rama izquierda.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido en pre-orden, los nodos se procesan en el orden raíz, rama izquierda, rama derecha.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Rama izquierda, raíz, rama derecha.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este orden corresponde al recorrido en in-orden, no al pre-orden.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Raíz, rama izquierda, rama derecha.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "En el recorrido en pre-orden de DFS, los nodos se procesan en el orden de raíz primero, luego la rama izquierda, y finalmente la rama derecha.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Rama derecha, rama izquierda, raíz.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Este orden no corresponde al recorrido en pre-orden, sino más bien a un tipo de post-orden.",
                     "estado": "false"
                 }
             }
@@ -184,22 +184,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Es más rápido en la mayoría de los casos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) puede ser más rápida que la búsqueda en amplitud (BFS) en muchos casos porque explora un camino completo hasta el final antes de retroceder, evitando la expansión de todos los vecinos en cada nivel.",
                     "estado": "true"
                 },
                 "2": {
                     "contenido": "Garantiza encontrar la solución óptima.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no garantiza encontrar la solución óptima, especialmente en grafos donde los caminos tienen diferentes costos.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Explora todas las ramas del árbol simultáneamente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. En lugar de eso, sigue una rama tan profundamente como sea posible antes de retroceder.",
                     "estado": "false"
                 },
                 "4": {
                     "contenido": "Tiende a consumir menos memoria.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "Aunque DFS puede usar menos memoria que BFS en algunos casos, esta no es siempre una ventaja garantizada. DFS puede requerir mucha memoria en caminos muy profundos.",
                     "estado": "false"
                 }
             }
@@ -210,22 +210,22 @@
             "respuestas": {
                 "1": {
                     "contenido": "Porque siempre encuentra la solución más óptima.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no siempre encuentra la solución más óptima, especialmente si se queda atrapado en caminos largos o en ciclos infinitos.",
                     "estado": "false"
                 },
                 "2": {
                     "contenido": "Porque explora todas las ramas del árbol simultáneamente.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "DFS no explora todas las ramas del árbol simultáneamente. Explora tan profundamente como sea posible en una rama antes de retroceder.",
                     "estado": "false"
                 },
                 "3": {
                     "contenido": "Porque puede quedar atrapada en ciclos infinitos.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "La búsqueda en profundidad (DFS) no es completa ni óptima porque puede quedar atrapada en ciclos infinitos, lo que impide encontrar una solución, y no garantiza encontrar la solución más corta.",
                     "estado": "true"
                 },
                 "4": {
                     "contenido": "Porque solo procesa nodos en pre-orden.",
-                    "retroalimentacion": "",
+                    "retroalimentacion": "El hecho de que DFS procese nodos en pre-orden no afecta su completitud o optimalidad.",
                     "estado": "false"
                 }
             }
